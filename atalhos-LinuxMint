@@ -1,21 +1,30 @@
-    Esses atalhos permitem acesso rápido a terminais, sessões gráficas e manipulação do ambiente.
-    Crtl+Alt+T = Bash/Shell
-    Crtl+Alt+F1-6 = TTY
-    Crtl+Alt+F7 = Cinnamon
-    Crtl+D = Exit
-    Crtl+L = Clean
-    Crtl+Alt+Backspace = Restart (Cinnamon)
+Atalhos Essenciais
 
-    SUDO  
+Esses atalhos permitem um acesso rápido a terminais, sessões gráficas e manipulação do ambiente no Linux:
 
-    sudo apt update			#Atualizar o sources.list
-		sudo apt upgrade		#Atualizar o sistema
-		sudo apt full-upgrade	#Forçar atualização completa
-		sudo apt dist-upgrade	#Forçar atualização de Kernel
-		sudo apt autoremove		#Remover Software desnecesários
-		sudo apt autoclean		#Limpeza do Cache do Apt
-		sudo reboot				#Reiniciar a máquina
+- Ctrl + Alt + T**: Abre o terminal (Bash/Shell).
+- Ctrl + Alt + F1-6**: Alterna entre as consoles virtuais (TTY).
+- Ctrl + Alt + F7**: Retorna à sessão gráfica (Cinnamon).
+- Ctrl + D**: Encerra a sessão atual do terminal.
+- Ctrl + L**: Limpa a tela do terminal.
+- Ctrl + Alt + Backspace**: Reinicia o ambiente gráfico (Cinnamon).
 
-    Historico
+---
 
-    history
+Comandos SUDO
+
+O comando SUDO é utilizado para executar tarefas com privilégios administrativos. Abaixo estão alguns comandos úteis para gerenciamento do sistema:
+
+- sudo apt update: Atualiza a lista de pacotes disponíveis no sistema (sources.list).
+- sudo apt upgrade: Atualiza todos os pacotes instalados no sistema.
+- sudo apt full-upgrade: Realiza uma atualização completa, incluindo mudanças que requerem a remoção de pacotes antigos.
+- sudo apt dist-upgrade: Atualiza o sistema incluindo o Kernel, se necessário.
+- sudo apt autoremove: Remove pacotes desnecessários que não são mais utilizados.
+- sudo apt autoclean: Limpa os arquivos de cache do apt que já não são mais necessários.
+- sudo reboot: Reinicia a máquina.
+
+---
+
+Histórico de Comandos
+
+O comando `history` exibe uma lista de todos os comandos que foram executados no terminal. Isso pode ser útil para revisar ou repetir comandos anteriores.
